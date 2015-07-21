@@ -1,0 +1,290 @@
+/*Stylesheet for RMC bootstrap subtheme*/
+
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+	background-color: #272727;
+}
+
+a {
+color: #5b1d1e;
+}
+
+/*boostrap container*/
+.container-fluid {
+padding: 0px 30px;
+}
+
+/*node title*/
+.page-header {
+    border-bottom: none;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #5b1d1e;
+    font-size: 2em;
+}
+
+.CUL-header{
+	height: 130px;
+	padding: 15px 0px 15px 15px;
+	background-color: #272727;
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0em;
+	overflow: hidden;
+}
+
+.cu_logo{
+	height: 100px;
+	padding-right: 12px;
+	float: left;
+}
+
+.CUL-header-links{
+	padding: 20px 0px 0px 0px;
+	white-space: nowrap;
+}
+
+.CUL-header-links a{
+	text-decoration: none;
+}
+
+#header-link-CUL {
+	color: #fff;
+	font-size: 1.3em;
+}
+
+#header-link-RMC {
+	color: #e8c375;
+	font-size: 1.5em;
+	line-height: 0px;
+}
+
+
+.search-navigation-items {
+	float: right;
+	padding: 45px 0px 0px 0px;
+	font-size: .75em;
+	text-align: right;
+}
+	
+.search-navigation-items a {
+	margin: 0px 20px 0px 0px;
+	color: #aaa;
+	text-decoration: none;
+	
+}
+	
+.search-navigation-items a:hover {
+	background: #555;
+	color: #fff;
+}
+
+
+@media (max-width: 810px) {
+
+ 	.search-navigation-items {
+ 	padding: 75px 0px 0px 0px;
+ 	font-size: .75em;
+	text-align: left;
+ 	}
+}
+  
+  
+.RMC-subheader{
+	padding: 10px 20px 10px 20px;
+	background-color: #451617;
+	background: linear-gradient(#451617, #1f0a0a);
+	color: #fff;
+	background-image: url("/sites/all/themes/bootstrap_subtheme_RMC/img/reunion_bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto 101%;
+}
+
+@media (max-width: 768px) {
+ 	
+ 	.RMC-subheader{
+	background-color: #451617;
+	background: linear-gradient(#451617, #1f0a0a);
+	color: #fff;
+	font-size: 12px;
+	background-image: url("/sites/all/themes/bootstrap_subtheme_RMC/img/reunion_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101% auto;
+	}
+}
+
+.RMC-subheader a{
+	color: #fff;
+	white-space: nowrap;
+}
+
+  
+.krochpanes{
+	text-align: center;
+}
+  
+.quicklinks {
+	padding: 10px 0px 15px 0px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+	.quicklinks {
+	padding: 5px 15px 0px 0px;
+	text-align: right;
+	}
+  }
+
+/*main navbar body*/
+.navbar-static-top {
+background-color: #666;
+z-index: 500; // to show the menu sequence
+}
+
+.navbar-default {
+    border:none;
+    box-shadow:none;
+}
+
+/*main navbar selected tab*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #999;
+    color: #fff;
+}
+
+/*main navbar unselected tabs*/
+.navbar-default .navbar-nav > li > a {
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+#navbar{
+margin: 0px;
+}
+
+/*main content body below navbar*/
+
+.main-container{
+	padding: 30px;
+	background-color: #e3d3bd;
+}
+
+
+
+.rmc-hours{
+	margin-top: 10px;
+	padding: 0px 15px 5px 15px;
+	text-align: center;
+	line-height: 1.4em;
+	color: #73634e;
+	background-color: #c7af91;
+	box-shadow: 5px 5px 10px #7f705e;
+	border-radius: 10px;
+}
+
+.rmc-hours h1{
+	color: white;
+	font-size: 1.1em;
+	font-face: normal;
+}
+
+@media (max-width: 1000px) {
+	
+	.rmc-hours{
+	font-size: .9em;
+	}
+}
+
+
+/* Carousel*/
+
+.item{
+    background: #333;    
+    text-align: center;
+    height: 435px !important;
+    
+}
+
+.item h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+.carousel{
+    margin-top: 30px;
+}
+
+.carousel-header{
+	color: #5b1d1e;
+    font-size: 1.4em;
+}
+
+.carousel-indicators{
+	bottom: 0px;
+}
+.carousel-control.left{
+	background-image: none;
+}
+
+.carousel-control.right{
+	background-image: none;
+}
+
+
+#exhibitionCarousel{
+	margin: 0px 0px 20px 0px;
+	width: 300px;
+	height: 435px;
+}
+
+
+
+
+.footer{
+	padding: 20px 30px;
+	background-color: #272727;
+	color: #aaa;
+	font-size: .9em;
+}
+
+.footer h1{
+	margin: 0px 0px 10px 0px;
+	font-size: 1em;
+	color: #fff;
+}
+
+.footer a{
+color: #fff;
+}
+
+.footer-social-media-icons{
+	float: right;
+	margin: 0px;
+	padding: 0px 5px;
+	font-size: 2.2em;
+	color: #fff;
+}
+
+.footer-social-media-icons a{
+	color: #ccc;
+}
+
+.footer-social-media-icons a:hover{
+	color: #fff;
+}
+
+
