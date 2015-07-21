@@ -77,7 +77,7 @@
 
 <header class = "CUL-header">
 
-	<a href="http://www.cornell.edu/"><img class="cu_logo" src="/sites/all/themes/bootstrap_subtheme_RMC/img/CULogo-white.svg"></a>
+	<a href="http://www.cornell.edu/"><img class="cu_logo" src="/sites/all/themes/rmc_library_bootstrap/img/CULogo-white.svg"></a>
 	
 	<div class="search-navigation-items"><a href="http://newcatalog.library.cornell.edu/">Library Catalog</a>
 	<a href="/search/node">Search This Site</a>
@@ -94,7 +94,7 @@
 <header class="RMC-subheader row">
     
     <div class="krochpanes col-sm-5 col-sm-offset-7 hidden-xs">
-    <img src="/sites/all/themes/bootstrap_subtheme_RMC/img/kroch_panes.png" class ="img-responsive center-block">            
+    <img src="/sites/all/themes/rmc_library_bootstrap/img/kroch_panes.png" class ="img-responsive center-block">            
     </div>
     
     
