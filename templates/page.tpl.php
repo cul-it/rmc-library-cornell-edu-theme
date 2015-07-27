@@ -97,8 +97,7 @@
     <img src="/sites/all/themes/rmc_library_bootstrap/img/kroch_panes.png" class ="img-responsive center-block">            
     </div>
     
-    
-    <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-6 col-xs-offset-6">
+    <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
     <a href="">Find Materials</a> <a style="padding-left: 20px;" href="">Register & Request items</a> <a style="padding-left: 20px;" href="">Visit</a>
     </div>
   

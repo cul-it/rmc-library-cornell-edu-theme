@@ -83,7 +83,6 @@ padding: 0px 30px;
 	color: #fff;
 }
 
-
 @media (max-width: 810px) {
 
  	.search-navigation-items {
@@ -93,8 +92,8 @@ padding: 0px 30px;
  	}
 }
   
-  
 .RMC-subheader{
+	margin: 0px;
 	padding: 10px 20px 10px 20px;
 	background-color: #451617;
 	background: linear-gradient(#451617, #1f0a0a);
@@ -111,7 +110,6 @@ padding: 0px 30px;
 	background-color: #451617;
 	background: linear-gradient(#451617, #1f0a0a);
 	color: #fff;
-	font-size: 12px;
 	background-image: url("/sites/all/themes/rmc_library_bootstrap/img/reunion_bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -135,10 +133,17 @@ padding: 0px 30px;
 	white-space: nowrap;
 }
 
+@media (max-width: 1000px) {
+	.quicklinks {
+	font-size: .9em;
+	}
+  }
+
 @media (max-width: 768px) {
 	.quicklinks {
-	padding: 5px 15px 0px 0px;
+	padding: 5px 15px 5px 0px;
 	text-align: right;
+	font-size: .8em;
 	}
   }
 
@@ -179,9 +184,31 @@ margin: 0px;
 	background-color: #e3d3bd;
 }
 
+/*sidebar and bootsrap well*/
+
+.region-sidebar-first{
+	padding: 0px;
+}
+
+.well{
+background-color: transparent;
+border: none;
+box-shadow: none;
+}
+
+/*sidebar last bullted item*/
+.region-sidebar-first .last{
+	margin-bottom:15px;
+}
+
+
+.breadcrumb{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
 .rmc-hours{
-	margin-top: 10px;
-	padding: 0px 15px 5px 15px;
+	margin-top: 0px;
+	padding: 0px 15px 15px 15px;
 	text-align: center;
 	line-height: 1.4em;
 	color: #73634e;
