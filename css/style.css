@@ -151,11 +151,12 @@ padding: 0px 30px;
 .navbar-static-top {
 background-color: #666;
 z-index: 500; // to show the menu sequence
+
 }
 
 .navbar-default {
     border:none;
-    box-shadow:none;
+    box-shadow: 0px 5px 8px #b2a38e;
 }
 
 /*main navbar selected tab*/
@@ -184,6 +185,51 @@ margin: 0px;
 	background-color: #e3d3bd;
 }
 
+/*primary content body, not including sidebars*/
+
+#main-body{
+	padding: 0px 30px 0px 30px;
+	color: #644824;
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+
+#main-body a{
+	text-decoration: underline;
+}
+
+#main-body a:hover{
+	color: #7c3411;
+}
+
+.imagewcaption-right{
+	width: 250px;
+	float: right;
+	margin-left: 15px;
+	font-size: .8em;
+	line-height: 1em;
+	color: #666;
+	text-align: center;
+}
+
+.imagewcaption-right img{
+	margin-bottom: 5px;
+}
+
+.imagewcaption-left{
+	width: 250px;
+	float: left;
+	margin-right: 15px;
+	font-size: .8em;
+	line-height: 1em;
+	color: #666;
+	text-align: center;
+}
+
+.imagewcaption-left img{
+	margin-bottom: 5px;
+}
+
 /*sidebar and bootsrap well*/
 
 .region-sidebar-first{
@@ -196,9 +242,14 @@ border: none;
 box-shadow: none;
 }
 
-/*sidebar last bullted item*/
+/*sidebar last bulleted item*/
 .region-sidebar-first .last{
 	margin-bottom:15px;
+}
+
+/*sidebar bulleted item*/
+.region-sidebar-first .leaf{
+	line-height: 1em;
 }
 
 
@@ -213,7 +264,7 @@ box-shadow: none;
 	line-height: 1.4em;
 	color: #73634e;
 	background-color: #c7af91;
-	box-shadow: 5px 5px 10px #7f705e;
+	box-shadow: 5px 5px 8px #b2a38e;
 	border-radius: 10px;
 }
 
@@ -290,6 +341,10 @@ box-shadow: none;
 }
 
 .footer a{
+color: #ccc;
+}
+
+.footer a:hover{
 color: #fff;
 }
 
@@ -308,5 +363,3 @@ color: #fff;
 .footer-social-media-icons a:hover{
 	color: #fff;
 }
-
-

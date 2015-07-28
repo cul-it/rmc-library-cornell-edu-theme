@@ -94,18 +94,15 @@
 <header class="RMC-subheader row">
     
     <div class="krochpanes col-sm-5 col-sm-offset-7 hidden-xs">
-    <img src="/sites/all/themes/rmc_library_bootstrap/img/kroch_panes.png" class ="img-responsive center-block">            
+    <img src="/sites/all/themes/rmc_library_bootstrap/img/kroch_panes_2.png" class ="img-responsive center-block">            
     </div>
     
     <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
     <a href="">Find Materials</a> <a style="padding-left: 20px;" href="">Register & Request items</a> <a style="padding-left: 20px;" href="">Visit</a>
     </div>
   
-
 </header>
   
-
-    
 <nav id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -164,7 +161,7 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-    <section<?php print $content_column_class; ?>>
+    <section id ="main-body" <?php print $content_column_class; ?>>
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
@@ -241,12 +238,12 @@
 	<div class="col-sm-3 hidden-xs">
 	<h1>ABOUT US</h1>
 	
-	Rare and Manuscript Collections<br/>
+	<a href="/about/kroch">Overview</a><br/>
 	The Carl A. Kroch Library<br/>
 	Frequently Asked Questions<br/>
 	Search this Website<br/>
+	Staff Directory<br/>
 	Make a Gift<br/>
-	Contact Us
 	</div>
 
 </div>
