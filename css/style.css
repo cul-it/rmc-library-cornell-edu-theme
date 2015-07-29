@@ -332,10 +332,10 @@ box-shadow: none;
 }
 
 .btn-primary {
+	margin-top: 10px;
 }
 
 .btn-primary:hover {
-margin-top: 10px;
 }
 
 
