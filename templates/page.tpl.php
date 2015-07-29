@@ -98,7 +98,7 @@
     </div>
     
     <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
-    <a href="">Find Materials</a> <a style="padding-left: 20px;" href="">Register & Request items</a> <a style="padding-left: 20px;" href="">Visit</a>
+    <a href="/services/find">Find Materials</a> <a style="padding-left: 20px;" href="http://rare.library.cornell.edu/">Register & Request items</a> <a style="padding-left: 20px;" href="/services/visit">Visit</a>
     </div>
   
 </header>
@@ -203,47 +203,50 @@
 	<div class="col-sm-3 hidden-xs">
 	<h1>SERVICES</h1>
 	
-	Research Services Overview<br/>
-	How to Find Rare Books & Manuscripts<br/>
-	Registration & Guidelines for Use<br/>
-	Reproductions & Permissions<br/>
-	Information for Visitors<br/>
-	Teaching Services<br/>
-	Funding for Research<br/>
-	Ask a Librarian
+	<a href="/services">Research Services Overview</a><br/>
+	<a href="/services/visit">Information for Visitors</a><br/>
+	<a href="/services/find">Finding Materials</a><br/>
+	<a href="/services/registration">Registration & Guidelines for Use</a><br/>
+	<a href="http://rare.library.cornell.edu/">Register & Request Items</a><br/>
+	<a href="/services/reproductions">Reproductions & Permissions</a><br/>
+	<a href="/services/teaching">Teaching Services</a><br/>
+	<a href="/services/funding">Funding for Research</a><br/>
+	<a href="/services/ask">Ask a Librarian</a><br/>
+	<a href="/services/privacy">Privacy Statement</a>
 	</div>
 	
 	<div class="col-sm-3 hidden-xs">
 	<h1>COLLECTIONS</h1>
 	
-	Collections Overview<br/>
-	Collection Highlights<br/>
-	Photographs & Visual Materials<br/>
-	Digital Collections<br/>
-	Archival Guides<br/>
-	Recent Acquisitions<br/>
-	Collection History<br/>
-	Collecting Policies
+	<a href="/collections">Collections Overview</a><br/>
+	<a href="/collections/highlights">Collection Highlights</a><br/>
+	<a href="/collections/photography">Photographs & Visual Materials</a><br/>
+	<a href="/collections/digital">Digital Collections</a><br/>
+	<a href="/collections/guides">Archival Guides</a><br/>
+	<a href="/collections/acquisitions">Recent Acquisitions</a><br/>
+	<a href="/collections/history">Collection History</a><br/>
+	<a href="/collections/policies">Collecting Policies</a>
 	</div>
 	
 	<div class="col-sm-3 hidden-xs">
 	<h1>EXHIBITIONS & EVENTS</h1>
 	
-	Current Exhibitions<br/>
-	Past & Online Exhibitions<br/>
-	Outreach & Events<br/>
-	News & Social Media
+	<a href="/exhibitions">Current Exhibitions</a><br/>
+	<a href="/exhibitions/online">Past & Online Exhibitions</a><br/>
+	<a href="/exhibitions/events">Outreach & Events</a><br/>
+	<a href="/exhibitions/news">News & Social Media</a>
 	</div>
 	
 	<div class="col-sm-3 hidden-xs">
 	<h1>ABOUT US</h1>
 	
-	<a href="/about/kroch">Overview</a><br/>
-	The Carl A. Kroch Library<br/>
-	Frequently Asked Questions<br/>
-	Search this Website<br/>
-	Staff Directory<br/>
-	Make a Gift<br/>
+	<a href="/about">Overview</a><br/>
+	<a href="/about/kroch">The Carl A. Kroch Library</a><br/>
+	<a href="/about/faq">Frequently Asked Questions</a><br/>
+	<a href="/about/staff">Staff Directory</a><br/>
+	<a href="/search">Search this Website</a><br/>
+	<a href="/about/gift">Make a Gift</a><br/>
+	<a href="about/feedback">Feedback</a>
 	</div>
 
 </div>
@@ -256,7 +259,7 @@
 <a href="https://www.youtube.com/user/CornellRMC" title="Follow us on YouTube"><span class="fa fa-youtube-square"></span></a>
 </div>
 
-<div class="visible-xs"><br/><a href="">Feedback</a></div>
+<div class="visible-xs"><br/><a href="about/feedback">Feedback</a></div>
 
 <hr style="clear: right; margin: 0px 0px 5px 0px; padding: 0px; border-color: #666;">
 <p style="float: right; margin-left: 30px;"><a href="https://confluence.cornell.edu/pages/viewpage.action?pageId=90087303" title="RMC Staff-Only Wiki">Staff Wiki</a></p>
