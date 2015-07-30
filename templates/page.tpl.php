@@ -74,10 +74,10 @@
  */
 ?>
 
-
 <header class = "CUL-header">
 
-	<a href="http://www.cornell.edu/"><img class="cu_logo" src="/sites/all/themes/rmc_library_bootstrap/img/CULogo-white.svg"></a>
+	<a href="http://www.cornell.edu/">
+	<?php print '<img class="cu_logo" src="'.$base_path.$directory.'/img/CULogo-white.svg"></a>'; ?>
 	
 	<div class="search-navigation-items"><a href="http://newcatalog.library.cornell.edu/">Library Catalog</a>
 	<a href="/search/node">Search This Site</a>
@@ -94,7 +94,7 @@
 <header class="RMC-subheader row">
     
     <div class="krochpanes col-sm-5 col-sm-offset-7 hidden-xs">
-    <img src="/sites/all/themes/rmc_library_bootstrap/img/kroch_panes_2.png" class ="img-responsive center-block">            
+    <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_2.png" class ="img-responsive center-block">'; ?>            
     </div>
     
     <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
@@ -262,10 +262,10 @@
 <div class="visible-xs"><br/><a href="about/feedback">Feedback</a></div>
 
 <hr style="clear: right; margin: 0px 0px 5px 0px; padding: 0px; border-color: #666;">
-<p style="float: right; margin-left: 30px;"><a href="https://confluence.cornell.edu/pages/viewpage.action?pageId=90087303" title="RMC Staff-Only Wiki">Staff Wiki</a></p>
-<div style="color: #ccc;">&copy; 2015  Division of Rare and Manuscript Collections, 2B Carl A. Kroch Library, Cornell University, Ithaca, NY 14853.<br/>
+<p style="float: right; margin-left: 30px;"><a href="/user/login">Staff Login</a> | <a href="https://confluence.cornell.edu/pages/viewpage.action?pageId=90087303" title="RMC Staff-Only Wiki">Staff Wiki</a></p>
+<div style="color: #ccc;">&copy; 
+<?php print date("Y"); ?>
+ Division of Rare and Manuscript Collections, 2B Carl A. Kroch Library, Cornell University, Ithaca, NY 14853.<br/>
 Phone: 607-255-3530 | Fax: 607-255-9524</div>
 
-
 </footer>
-

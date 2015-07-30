@@ -98,7 +98,7 @@ padding: 0px 30px;
 	background-color: #451617;
 	background: linear-gradient(#451617, #1f0a0a);
 	color: #fff;
-	background-image: url("/sites/all/themes/rmc_library_bootstrap/img/reunion_bg.png");
+	background-image: url("../img/reunion_bg.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: auto 101%;
@@ -110,7 +110,7 @@ padding: 0px 30px;
 	background-color: #451617;
 	background: linear-gradient(#451617, #1f0a0a);
 	color: #fff;
-	background-image: url("/sites/all/themes/rmc_library_bootstrap/img/reunion_bg.png");
+	background-image: url("../img/reunion_bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 101% auto;
@@ -160,7 +160,7 @@ z-index: 500; // to show the menu sequence
 }
 
 /*main navbar selected tab*/
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active-trail > a {
     background-color: #999;
     color: #fff;
 }
@@ -250,6 +250,16 @@ box-shadow: none;
 /*sidebar bulleted item*/
 .region-sidebar-first .leaf{
 	line-height: 1em;
+}
+
+/*current menu item*/
+
+.active-trail{
+	font-weight: bold;
+}
+
+.active{
+	font-weight: bold;
 }
 
 
