@@ -178,6 +178,18 @@ z-index: 500; // to show the menu sequence
 margin: 0px;
 }
 
+
+/*main navbar collapsed second-level (dropdown)  links*/
+@media (max-width: 768px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #ccc;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: #fff;
+	}
+}
+
 /*main content body below navbar*/
 
 .main-container{
@@ -252,13 +264,13 @@ box-shadow: none;
 	line-height: 1em;
 }
 
-/*current menu item*/
+/*current sidebar menu item*/
 
-.active-trail{
+.region-sidebar-first .active-trail{
 	font-weight: bold;
 }
 
-.active{
+.region-sidebar-first .active{
 	font-weight: bold;
 }
 
