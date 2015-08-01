@@ -7,24 +7,6 @@ body{
 	background-color: #272727;
 }
 
-a {
-color: #5b1d1e;
-}
-
-/*boostrap container*/
-.container-fluid {
-padding: 0px 30px;
-}
-
-/*node title*/
-.page-header {
-    border-bottom: none;
-    margin: 0px;
-    padding-bottom: 10px;
-    color: #5b1d1e;
-    font-size: 2em;
-}
-
 .CUL-header{
 	height: 130px;
 	padding: 15px 0px 15px 15px;
@@ -63,7 +45,6 @@ padding: 0px 30px;
 	line-height: 0px;
 }
 
-
 .search-navigation-items {
 	float: right;
 	padding: 45px 0px 0px 0px;
@@ -99,9 +80,9 @@ padding: 0px 30px;
 	background: linear-gradient(#451617, #1f0a0a);
 	color: #fff;
 	background-image: url("../img/reunion_bg.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: auto 101%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: auto 101%;
 }
 
 @media (max-width: 768px) {
@@ -111,9 +92,9 @@ padding: 0px 30px;
 	background: linear-gradient(#451617, #1f0a0a);
 	color: #fff;
 	background-image: url("../img/reunion_bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 101% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 101% auto;
 	}
 }
 
@@ -149,35 +130,33 @@ padding: 0px 30px;
 
 /*main navbar body*/
 .navbar-static-top {
-background-color: #666;
-z-index: 500; // to show the menu sequence
-
+	background-color: #666;
+	z-index: 500; /*to keep from covering admin panels and menu*/
 }
 
 .navbar-default {
-    border:none;
-    box-shadow: 0px 5px 8px #b2a38e;
+	border:none;
+	box-shadow: 0px 5px 8px #b2a38e;
 }
 
 /*main navbar selected tab*/
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active-trail > a {
-    background-color: #999;
-    color: #fff;
+	background-color: #999;
+	color: #fff;
 }
 
 /*main navbar unselected tabs*/
 .navbar-default .navbar-nav > li > a {
-    color: #ccc;
+	color: #ccc;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #fff;
+	color: #fff;
 }
 
 #navbar{
-margin: 0px;
+	margin: 0px;
 }
-
 
 /*main navbar collapsed second-level (dropdown)  links*/
 @media (max-width: 768px) {
@@ -190,11 +169,19 @@ margin: 0px;
 	}
 }
 
-/*main content body below navbar*/
+/*boostrap main content container below navbar*/
+.container-fluid {
+padding: 0px 30px;
+}
 
+/*main content body below navbar*/
 .main-container{
 	padding: 30px;
 	background-color: #e3d3bd;
+}
+
+.main-container a {
+	color: #5b1d1e;
 }
 
 /*primary content body, not including sidebars*/
@@ -204,6 +191,15 @@ margin: 0px;
 	color: #644824;
 	font-size: 1.1em;
 	line-height: 1.6em;
+}
+
+/*node title*/
+.page-header {
+	border-bottom: none;
+	margin: 0px;
+	padding-bottom: 10px;
+	color: #5b1d1e;
+	font-size: 2em;
 }
 
 #main-body a{
@@ -242,38 +238,42 @@ margin: 0px;
 	margin-bottom: 5px;
 }
 
-/*sidebar and bootsrap well*/
+/*sidebar and bootstrap well*/
 
 .region-sidebar-first{
 	padding: 0px;
 }
 
 .well{
-background-color: transparent;
-border: none;
-box-shadow: none;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
 }
 
-/*sidebar last bulleted item*/
-.region-sidebar-first .last{
-	margin-bottom:15px;
+/*section-menu menu_block*/
+.section-menu{
+	margin: 0px 0px 25px 0px;
 }
 
-/*sidebar bulleted item*/
+/*sidebar bulleted items*/
 .region-sidebar-first .leaf{
 	line-height: 1em;
 }
 
+/*remove indent*/
+.region-sidebar-first ul.menu{
+	margin-left: -10px;
+}
+
 /*current sidebar menu item*/
-
-.region-sidebar-first .active-trail{
+.region-sidebar-first a.active-trail{
 	font-weight: bold;
 }
 
-.region-sidebar-first .active{
-	font-weight: bold;
+/*indent subsection items*/
+.region-sidebar-first li>ul.menu{
+	margin-left: 20px;
 }
-
 
 .breadcrumb{
 	background-color: rgba(255, 255, 255, 0.4);
@@ -303,31 +303,29 @@ box-shadow: none;
 	}
 }
 
-
 /* Carousel*/
 
 .item{
     background: #333;    
     text-align: center;
-    height: 435px !important;
-    
+    height: 435px !important; 
 }
 
 .item h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
+	margin: 0;     
+	color: #666;
+	padding-top: 90px;
+	font-size: 52px;
+	font-family: "trebuchet ms", sans-serif;    
 }
 
 .carousel{
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .carousel-header{
 	color: #5b1d1e;
-    font-size: 1.4em;
+	font-size: 1.4em;
 }
 
 .carousel-indicators{
@@ -379,11 +377,11 @@ box-shadow: none;
 }
 
 .footer a{
-color: #ccc;
+	color: #ccc;
 }
 
 .footer a:hover{
-color: #fff;
+	color: #fff;
 }
 
 .footer-social-media-icons{
