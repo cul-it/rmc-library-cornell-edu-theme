@@ -91,15 +91,17 @@
 	
 </header>
 
-<header class="RMC-subheader row">
+<header class="RMC-subheader row hidden-xs">
     
     <div class="krochpanes col-sm-5 col-sm-offset-7 hidden-xs">
-    <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_2.png" class ="img-responsive center-block">'; ?>            
+    <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_200h.png" class ="img-responsive center-block">'; ?>            
     </div>
     
-    <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
+  <!-- 
+  <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
     <a href="/services/find">Find Materials</a> <a style="padding-left: 20px;" href="http://rare.library.cornell.edu/">Register & Request items</a> <a style="padding-left: 20px;" href="/services/visit">Visit</a>
     </div>
+ -->
   
 </header>
   
@@ -156,12 +158,12 @@
   <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-sm-3" role="complementary">
+      <aside class="col-sm-4 col-md-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-    <section id ="main-body" <?php print $content_column_class; ?>>
+    <section id ="main-body" class="col-sm-8 col-md-9"> <!-- removed <?php print $content_column_class; ?> from class -->
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>

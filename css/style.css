@@ -8,7 +8,7 @@ body{
 }
 
 .CUL-header{
-	height: 130px;
+	height: 110px;
 	padding: 15px 0px 15px 15px;
 	background-color: #272727;
 	color: #fff;
@@ -20,13 +20,13 @@ body{
 }
 
 .cu_logo{
-	height: 100px;
+	height: 80px;
 	padding-right: 12px;
 	float: left;
 }
 
 .CUL-header-links{
-	padding: 20px 0px 0px 0px;
+	padding: 15px 0px 0px 0px;
 	white-space: nowrap;
 }
 
@@ -76,34 +76,33 @@ body{
 .RMC-subheader{
 	margin: 0px;
 	padding: 10px 20px 10px 20px;
-	background-color: #451617;
-	background: linear-gradient(#451617, #1f0a0a);
+	background-color: #421516;
 	color: #fff;
-	background-image: url("../img/reunion_bg.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: auto 101%;
+	background-image: url("../img/reunion_bg_3.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: auto 100%;
 }
 
+/*
 @media (max-width: 768px) {
  	
  	.RMC-subheader{
 	background-color: #451617;
-	background: linear-gradient(#451617, #1f0a0a);
 	color: #fff;
-	background-image: url("../img/reunion_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 101% auto;
+	background-image: url("../img/reunion_bg_2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 101% auto;
 	}
 }
+*/
 
 .RMC-subheader a{
 	color: #fff;
 	white-space: nowrap;
 }
 
-  
 .krochpanes{
 	text-align: center;
 }
@@ -176,21 +175,12 @@ padding: 0px 30px;
 
 /*main content body below navbar*/
 .main-container{
-	padding: 30px;
+	padding: 30px 30px 30px 35px;
 	background-color: #e3d3bd;
 }
 
 .main-container a {
 	color: #5b1d1e;
-}
-
-/*primary content body, not including sidebars*/
-
-#main-body{
-	padding: 0px 30px 0px 30px;
-	color: #644824;
-	font-size: 1.1em;
-	line-height: 1.6em;
 }
 
 /*node title*/
@@ -199,7 +189,30 @@ padding: 0px 30px;
 	margin: 0px;
 	padding-bottom: 10px;
 	color: #5b1d1e;
-	font-size: 2em;
+	font-size: 1.6em;
+}
+
+/*primary content body, not including sidebars*/
+#main-body{
+	max-width: 1000px;
+	padding: 0px 50px 0px 15px;
+	color: #644824;
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+
+#main-body h1{
+	font-size: 1.5em;
+	color: #5b1d1e;
+}
+
+#main-body h2{
+	font-size: 1.3em;
+}
+
+#main-body h3{
+	color: #5b1d1e;
+	font-size: 1.2em;
 }
 
 #main-body a{
@@ -208,11 +221,6 @@ padding: 0px 30px;
 
 #main-body a:hover{
 	color: #7c3411;
-}
-
-#main-body h2{
-	color: #5b1d1e;
-	font-size: 1.3em;
 }
 
 .imagewcaption-right{
@@ -246,7 +254,7 @@ padding: 0px 30px;
 /*sidebar and bootstrap well*/
 
 .region-sidebar-first{
-	padding: 0px;
+	padding: 0px 15px 0px 0px;
 }
 
 .well{
@@ -260,23 +268,28 @@ padding: 0px 30px;
 	margin: 0px 0px 25px 0px;
 }
 
+.section-menu h2{
+	font-size: 1.6em;
+	color: #644824;
+}
+
 /*sidebar bulleted items*/
-.region-sidebar-first .leaf{
+.section-menu .leaf{
 	line-height: 1em;
 }
 
 /*remove indent*/
-.region-sidebar-first ul.menu{
+.section-menu ul.menu{
 	margin-left: -10px;
 }
 
 /*current sidebar menu item*/
-.region-sidebar-first a.active-trail{
+.section-menu a.active-trail{
 	font-weight: bold;
 }
 
 /*indent subsection items*/
-.region-sidebar-first li>ul.menu{
+.section-menu li>ul.menu{
 	margin-left: 20px;
 }
 
@@ -290,23 +303,34 @@ padding: 0px 30px;
 	text-align: center;
 	line-height: 1.4em;
 	color: #73634e;
-	background-color: #c7af91;
-	box-shadow: 5px 5px 8px #b2a38e;
+	background-color: #d1bda8;
+	/*box-shadow: 5px 5px 8px #b2a38e;*/
 	border-radius: 10px;
 }
 
+@media (max-width: 992px) {
+	.rmc-hours{
+	font-size: 1em;
+	}
+}
+
 .rmc-hours h1{
-	color: white;
+	color: #5a4937;
 	font-size: 1.1em;
 	font-face: normal;
 }
 
-@media (max-width: 1000px) {
-	
-	.rmc-hours{
-	font-size: .9em;
-	}
+.rmc-hours hr{
+	margin: 15px 20px 10px 20px;
+	border-color: #a59584;
 }
+
+.rmc-hours-quicklinks{
+	padding: 0px 5px;
+	white-space: nowrap;
+	line-height: 2em;
+}
+
 
 /* Front page items*/
 
@@ -315,14 +339,6 @@ padding: 0px 30px;
 .item{
     background: #333;    
     text-align: center;  
-}
-
-.item h2{
-	margin: 0;     
-	color: #666;
-	padding-top: 90px;
-	font-size: 52px;
-	font-family: "trebuchet ms", sans-serif;    
 }
 
 .carousel{
