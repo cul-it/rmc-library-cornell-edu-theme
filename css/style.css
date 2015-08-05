@@ -78,7 +78,7 @@ body{
 	padding: 10px 20px 10px 20px;
 	background-color: #421516;
 	color: #fff;
-	background-image: url("../img/subhead_bg_reunion_220h.png");
+	background-image: url("../img/subhead_bg_reunion_220h.png"), linear-gradient(#451617, #1f0a0a);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: auto 100%;
@@ -297,12 +297,37 @@ padding: 0px 30px;
 	background-color: rgba(255, 255, 255, 0.4);
 }
 
+/*welcome text front page block*/
+.welcome-fp{
+ 	padding: 0px 5px 30px 5px;
+ 	line-height: 1.6em;
+ 	color: #644824;
+ 	font-size: 1.1em;
+}
+
+.welcome-fp h1{
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	color: #5b1d1e;
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+.welcome-fp a{
+	text-decoration: underline;
+}
+
+.welcome-fp a:hover{
+	color: #7c3411;
+}
+
+/*services hours and links block*/
 .rmc-hours{
 	margin-top: 0px;
 	padding: 0px 15px 15px 15px;
 	text-align: center;
 	line-height: 1.4em;
-	color: #73634e;
+	color: #6b5c49;
 	background-color: #d1bda8;
 	/*box-shadow: 5px 5px 8px #b2a38e;*/
 	border-radius: 10px;
@@ -317,7 +342,15 @@ padding: 0px 30px;
 .rmc-hours h1{
 	color: #5a4937;
 	font-size: 1.1em;
-	font-face: normal;
+	font-weight: bold;
+}
+
+.rmc-hours a{
+	text-decoration: underline;
+}
+
+.rmc-hours a:hover{
+	color: #7c3411;
 }
 
 .rmc-hours hr{
