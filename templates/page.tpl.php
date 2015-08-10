@@ -233,8 +233,8 @@
 	<div class="col-sm-3 hidden-xs">
 	<h1>EXHIBITIONS & EVENTS</h1>
 	
-	<a href="/exhibitions">Current Exhibitions</a><br/>
-	<a href="/exhibitions/online">Past & Online Exhibitions</a><br/>
+	<a href="/exhibitions">Current & FeaturedExhibitions</a><br/>
+	<a href="/exhibitions/online">Online Exhibitions</a><br/>
 	<a href="/exhibitions/events">Outreach & Events</a><br/>
 	<a href="/exhibitions/news">News & Social Media</a>
 	</div>
