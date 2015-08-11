@@ -203,7 +203,7 @@
   <div class="row">
 
 	<div class="col-sm-3 hidden-xs">
-	<h1>SERVICES</h1>
+	<h1>RESEARCH SERVICES</h1>
 	
 	<a href="/services">Research Services Overview</a><br/>
 	<a href="/services/visit">Information for Visitors</a><br/>
@@ -220,7 +220,6 @@
 	<div class="col-sm-3 hidden-xs">
 	<h1>COLLECTIONS</h1>
 	
-	<a href="/collections">Collections Overview</a><br/>
 	<a href="/collections/highlights">Collection Highlights</a><br/>
 	<a href="/collections/photography">Photographs & Visual Materials</a><br/>
 	<a href="/collections/digital">Digital Collections</a><br/>
@@ -235,7 +234,7 @@
 	
 	<a href="/exhibitions">Current & FeaturedExhibitions</a><br/>
 	<a href="/exhibitions/online">Online Exhibitions</a><br/>
-	<a href="/exhibitions/events">Outreach & Events</a><br/>
+	<a href="/exhibitions/events">Events</a><br/>
 	<a href="/exhibitions/news">News & Social Media</a>
 	</div>
 	

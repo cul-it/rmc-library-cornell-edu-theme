@@ -322,7 +322,7 @@ padding: 0px 30px;
 }
 
 /*services hours and links block*/
-.rmc-hours{
+.sidebar-utility-block{
 	margin-top: 0px;
 	padding: 0px 15px 15px 15px;
 	text-align: center;
@@ -334,34 +334,38 @@ padding: 0px 30px;
 }
 
 @media (max-width: 992px) {
-	.rmc-hours{
+	.sidebar-utility-block{
 	font-size: 1em;
 	}
 }
 
-.rmc-hours h1{
+.sidebar-utility-block h1{
 	color: #5a4937;
 	font-size: 1.1em;
 	font-weight: bold;
 }
 
-.rmc-hours a{
+.sidebar-utility-block a{
 	text-decoration: underline;
 }
 
-.rmc-hours a:hover{
+.sidebar-utility-block a:hover{
 	color: #7c3411;
 }
 
-.rmc-hours hr{
+.sidebar-utility-block hr{
 	margin: 15px 20px 10px 20px;
 	border-color: #a59584;
 }
 
-.rmc-hours-quicklinks{
+.sidebar-utility-block-quicklinks{
 	padding: 0px 5px;
 	white-space: nowrap;
 	line-height: 2em;
+}
+
+.research-tools{
+	margin-top: 30px;
 }
 
 
