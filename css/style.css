@@ -144,6 +144,16 @@ body{
 	color: #fff;
 }
 
+.navbar-default .navbar-nav > .active-trail > a, .navbar-default .navbar-nav > .active-trail > a:hover, .navbar-default .navbar-nav > .active-trail > a:focus {
+	background-color: #999;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #999;
+	color: #fff;
+}
+
 /*main navbar unselected tabs*/
 .navbar-default .navbar-nav > li > a {
 	color: #ccc;
@@ -153,8 +163,23 @@ body{
 	color: #fff;
 }
 
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	
+}
+
 #navbar{
 	margin: 0px;
+}
+
+/*main navbar dropdown menu, non-collapsed*/
+.dropdown-menu {
+	background-color: #e0d8cd;
+
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	background-color: #b6afa7;
 }
 
 /*main navbar collapsed second-level (dropdown)  links*/
@@ -270,17 +295,28 @@ padding: 0px 30px;
 
 .section-menu h2{
 	font-size: 1.6em;
-	color: #644824;
+	color: #5a4937;
 }
 
 /*sidebar bulleted items*/
 .section-menu .leaf{
-	line-height: 1em;
+	line-height: 1.1em;
+	padding: 0px;
+}
+
+.section-menu  li > a {
+    display: block;
+    padding: 5px 0px 5px 0px;
+    position: relative;
+}
+
+.section-menu  li > a:hover {
+	background-color: #e4d3bd;
 }
 
 /*remove indent*/
 .section-menu ul.menu{
-	margin-left: -10px;
+	
 }
 
 /*current sidebar menu item*/
@@ -440,6 +476,7 @@ padding: 0px 30px;
 	font-size: .9em;
 	border: none;
 }
+
 
 .footer h1{
 	margin: 0px 0px 10px 0px;
