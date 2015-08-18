@@ -94,7 +94,7 @@
 <header class="RMC-subheader row hidden-xs">
     
     <div class="krochpanes col-sm-5 col-sm-offset-7 hidden-xs">
-    <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_200h.png" class ="img-responsive center-block">'; ?>            
+    <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_3_200h.png" class ="img-responsive center-block">'; ?>            
     </div>
     
   <!-- 
