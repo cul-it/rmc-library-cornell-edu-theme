@@ -466,6 +466,34 @@ padding: 0px 30px;
 }
 
 
+/* Collections Highlights*/
+
+.coll-highlight-square {
+	margin-bottom: 30px;
+	font-size: .8em;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+.coll-highlight-square img{
+	margin-bottom: 5px;
+	opacity: 1;
+   	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+.coll-highlight-square:hover img {
+	opacity: .7;
+}
+
+.coll-highlight-square a:link{
+	text-decoration: none !important;
+
+}
+
+
 /* Footer*/
 
 .footer{
