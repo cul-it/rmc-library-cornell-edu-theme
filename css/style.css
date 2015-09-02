@@ -26,22 +26,24 @@ body{
 }
 
 .CUL-header-links{
-	padding: 15px 0px 0px 0px;
+	padding: 13px 0px 0px 0px;
 	white-space: nowrap;
 }
 
 .CUL-header-links a{
 	text-decoration: none;
+	letter-spacing: 1px;
 }
 
 #header-link-CUL {
-	color: #fff;
-	font-size: 1.3em;
+	color: #eee;
+	font-size: 1.4em;
+	
 }
 
 #header-link-RMC {
 	color: #e8c375;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	line-height: 0px;
 }
 

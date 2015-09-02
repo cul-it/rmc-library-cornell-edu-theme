@@ -79,8 +79,7 @@
 	<a href="http://www.cornell.edu/">
 	<?php print '<img class="cu_logo" src="'.$base_path.$directory.'/img/CULogo-white.svg"></a>'; ?>
 	
-	<div class="search-navigation-items"><a href="http://newcatalog.library.cornell.edu/">Library Catalog</a>
-	<a href="/search/node">Search This Site</a>
+	<div class="search-navigation-items"><a href="/search/node">Search This Site</a>
 	<a href="http://www.cornell.edu/search/">Search Cornell</a>
 	</div>
 	
@@ -97,11 +96,6 @@
     <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_3_200h.png" class ="img-responsive center-block">'; ?>            
     </div>
     
-  <!-- 
-  <div class="quicklinks col-sm-5 col-sm-offset-7 col-xs-12">
-    <a href="/services/find">Find Materials</a> <a style="padding-left: 20px;" href="http://rare.library.cornell.edu/">Register & Request items</a> <a style="padding-left: 20px;" href="/services/visit">Visit</a>
-    </div>
- -->
   
 </header>
   
