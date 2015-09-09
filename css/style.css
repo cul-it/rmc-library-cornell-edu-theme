@@ -1,32 +1,56 @@
 /*Stylesheet for RMC bootstrap subtheme*/
 
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+@font-face {
+    font-family: texgyreadventor;
+    src: url(../fonts/texgyreadventor-regular.otf);
+}
 
 body{
 	background-color: #272727;
 }
 
-.CUL-header{
-	height: 110px;
-	padding: 15px 0px 15px 15px;
-	background-color: #272727;
+.RMC-fp-header{
+	height: 200px;
+	padding: 0px;
 	color: #fff;
-	font-size: 1em;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	font-family: texgyreadventor, sans-serif;
+	overflow: hidden;
+	background-image: url("../img/lance_reunion_header_bg.png"), linear-gradient(90deg, #450003, #1f0a0a);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: auto 100%;
+}
+
+.RMC-header{
+	height: 110px;
+	padding: 0px;
+	background-color: #450003;
+	background-image: linear-gradient(90deg, #450003, #1f0a0a);
+	color: #fff;
+	font-size: 1.1em;
+	font-family: texgyreadventor, sans-serif;
 	font-weight: normal;
-	letter-spacing: 0em;
 	overflow: hidden;
 }
 
+
 .cu_logo{
-	height: 80px;
-	padding-right: 12px;
+	position: relative;
+  	top: 49%;
+  	transform: translateY(-50%);
+	height: 120px;
+	margin: 0px 20px 0px 25px;
 	float: left;
 }
 
 .CUL-header-links{
-	padding: 13px 0px 0px 0px;
+	position: relative;
+  	top: 48%;
+  	transform: translateY(-50%);
+	padding: 0px;
 	white-space: nowrap;
 }
 
@@ -37,97 +61,103 @@ body{
 
 #header-link-CUL {
 	color: #eee;
-	font-size: 1.4em;
+	font-size: 1.55em;
 	
 }
 
 #header-link-RMC {
 	color: #e8c375;
-	font-size: 1.4em;
-	line-height: 0px;
+	font-size: 1.8em;
+	line-height: .7em;
 }
 
 .search-navigation-items {
 	float: right;
-	padding: 45px 0px 0px 0px;
-	font-size: .75em;
+	margin: 15px 25px 0px 0px;
+	font-size: 1.8em;
 	text-align: right;
 }
 	
 .search-navigation-items a {
-	margin: 0px 20px 0px 0px;
-	color: #aaa;
+	color: #eee;
 	text-decoration: none;
-	
 }
 	
 .search-navigation-items a:hover {
-	background: #555;
 	color: #fff;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 1200px) {
 
- 	.search-navigation-items {
- 	padding: 75px 0px 0px 0px;
- 	font-size: .75em;
-	text-align: left;
- 	}
-}
-  
-.RMC-subheader{
-	margin: 0px;
-	padding: 10px 20px 10px 20px;
-	background-color: #421516;
-	color: #fff;
-	background-image: url("../img/subhead_bg_reunion_220h.png"), linear-gradient(#451617, #1f0a0a);
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size: auto 100%;
-}
-
-/*
-@media (max-width: 768px) {
- 	
- 	.RMC-subheader{
-	background-color: #451617;
-	color: #fff;
-	background-image: url("../img/reunion_bg_2.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 101% auto;
+ 	.RMC-fp-header{
+	height: 170px;
 	}
-}
-*/
-
-.RMC-subheader a{
-	color: #fff;
-	white-space: nowrap;
-}
-
-.krochpanes{
-	text-align: center;
-}
-  
-.quicklinks {
-	padding: 10px 0px 15px 0px;
-	text-align: center;
-	white-space: nowrap;
-}
-
-@media (max-width: 1000px) {
-	.quicklinks {
+	
+	.cu_logo{
+	height: 100px;
+	}
+	
+	.CUL-header-links{
 	font-size: .9em;
 	}
-  }
+}
 
-@media (max-width: 768px) {
-	.quicklinks {
-	padding: 5px 15px 5px 0px;
-	text-align: right;
+@media (max-width: 950px) {
+
+ 	.RMC-fp-header{
+	height: 125px;
+	}
+	
+	.cu_logo{
+	height: 90px;
+	}
+	
+	.CUL-header-links{
 	font-size: .8em;
 	}
-  }
+}
+
+@media (max-width: 800px) {
+
+ 	.RMC-fp-header{
+	height: 125px;
+	background-image: linear-gradient(90deg, #450003, #1f0a0a);
+	}
+	
+	.cu_logo{
+	height: 90px;
+	}
+	
+	.CUL-header-links{
+	font-size: .8em;
+	}
+	
+	.search-navigation-items {
+	font-size: 1.6em;
+	}
+}
+
+@media (max-width: 525px) {
+
+ 	.RMC-fp-header{
+	height: 100px;
+	background-image: linear-gradient(90deg, #450003, #1f0a0a);
+	}
+	
+	.cu_logo{
+	height: 80px;
+	}
+	
+	.CUL-header-links{
+	font-size: .7em;
+	}
+	
+	.search-navigation-items {
+	font-size: 1.5em;
+	margin: 10px 15px 0px 0px;
+	}
+}
+
 
 /*main navbar body*/
 .navbar-static-top {
@@ -229,6 +259,7 @@ padding: 0px 30px;
 }
 
 #main-body h1{
+	font-family: texgyreadventor, sans-serif;
 	font-size: 1.5em;
 	color: #5b1d1e;
 }
@@ -284,6 +315,10 @@ padding: 0px 30px;
 	padding: 0px 15px 0px 0px;
 }
 
+.region-sidebar-first h1{
+	font-family: texgyreadventor, sans-serif;
+}
+
 .well{
 	background-color: transparent;
 	border: none;
@@ -296,6 +331,7 @@ padding: 0px 30px;
 }
 
 .section-menu h2{
+	font-family: texgyreadventor, sans-serif;
 	font-size: 1.6em;
 	color: #5a4937;
 }
@@ -378,6 +414,7 @@ padding: 0px 30px;
 }
 
 .sidebar-utility-block h1{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #5a4937;
 	font-size: 1.1em;
 	font-weight: bold;

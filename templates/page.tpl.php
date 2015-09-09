@@ -74,31 +74,20 @@
  */
 ?>
 
-<header class = "CUL-header">
+<header class = "RMC-fp-header">
 
-	<a href="http://www.cornell.edu/">
-	<?php print '<img class="cu_logo" src="'.$base_path.$directory.'/img/CULogo-white.svg"></a>'; ?>
-	
-	<div class="search-navigation-items"><a href="/search/node">Search This Site</a>
-	<a href="http://www.cornell.edu/search/">Search Cornell</a>
-	</div>
+	<div class="search-navigation-items"><a href="/search/node"><span class="fa fa-search"></span></a></div>
+		
+	<?php print '<a href="http://www.cornell.edu/"><img class="cu_logo" src="'.$base_path.$directory.'/img/CULogo-white.svg"></a>'; ?>
 	
 	<div class="CUL-header-links">
 	<a id="header-link-CUL" href="https://www.library.cornell.edu/">Cornell University Library</a><br/>
 	<a id="header-link-RMC" href="/">Rare and Manuscript Collections</a>
 	</div>
-	
+		
 </header>
 
-<header class="RMC-subheader row hidden-xs">
-    
-    <div class="krochpanes col-sm-5 col-sm-offset-7 hidden-xs">
-    <?php print '<img src="'.$base_path.$directory.'/img/kroch_panes_3_200h.png" class ="img-responsive center-block">'; ?>            
-    </div>
-    
-  
-</header>
-  
+
 <nav id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container-fluid">
     <div class="navbar-header">
