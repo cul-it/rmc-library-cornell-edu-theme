@@ -25,7 +25,7 @@ body{
 }
 
 .RMC-header{
-	height: 110px;
+	height: 125px;
 	padding: 0px;
 	background-color: #450003;
 	background-image: linear-gradient(90deg, #450003, #1f0a0a);
@@ -47,6 +47,10 @@ body{
 }
 
 .cu-logo{
+	height: 100px;
+}
+
+.cu-logo-fp{
 	height: 120px;
 }
 
@@ -97,7 +101,7 @@ body{
 	height: 170px;
 	}
 	
-	.cu-logo{
+	.cu-logo, .cu-logo-fp{
 	height: 100px;
 	}
 	
@@ -112,7 +116,7 @@ body{
 	height: 125px;
 	}
 	
-	.cu-logo{
+	.cu-logo, .cu-logo-fp{
 	height: 90px;
 	}
 	
@@ -128,7 +132,7 @@ body{
 	background-image: linear-gradient(90deg, #450003, #1f0a0a);
 	}
 	
-	.cu-logo{
+	.cu-logo, .cu-logo-fp{
 	height: 90px;
 	}
 	
@@ -148,7 +152,7 @@ body{
 	background-image: linear-gradient(90deg, #450003, #1f0a0a);
 	}
 	
-	.cu-logo{
+	.cu-logo, .cu-logo-fp{
 	height: 80px;
 	}
 	
