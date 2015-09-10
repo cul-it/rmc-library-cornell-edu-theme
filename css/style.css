@@ -495,6 +495,23 @@ padding: 0px 30px;
 	height: 435px;
 }
 
+/* Front page exhibiton ads */
+
+.exhibtion-ad-fp img{
+	margin-bottom: 5px;
+	opacity: 1;
+   	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+.exhibtion-ad-fp:hover img {
+	opacity: .7;
+}
+
+
+
 /* RMC Reference Form*/
 
 .ref-form-component{
@@ -533,7 +550,6 @@ padding: 0px 30px;
 
 .coll-highlight-square a:link{
 	text-decoration: none !important;
-
 }
 
 
