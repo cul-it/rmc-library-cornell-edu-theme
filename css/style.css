@@ -71,15 +71,16 @@ body{
 
 #header-link-CUL {
 	color: #eee;
-	font-size: 1.3em;
+	font-size: 1.2em;
+	letter-spacing: 1px;
 	font-weight: bold;
 }
 
 #header-link-RMC {
 	color: #e8c375;
-	font-size: 1.5em;
+	font-size: 1.4em;
     	letter-spacing: 1px;
-    	line-height: 0.9em;
+    	line-height: 1.3em;
     	font-weight: bold;
     	text-transform: uppercase;
 }
