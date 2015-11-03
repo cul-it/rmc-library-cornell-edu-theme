@@ -90,6 +90,7 @@ body{
 	margin: 15px 25px 0px 0px;
 	font-size: 1.8em;
 	text-align: right;
+	z-index: 20;
 }
 	
 .search-navigation-items a {
