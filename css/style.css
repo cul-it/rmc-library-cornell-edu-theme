@@ -38,7 +38,6 @@ body{
 	overflow: hidden;
 }
 
-
 .cu-logo-link{
 	position: relative;
   	top: 49%;
@@ -66,7 +65,6 @@ body{
 
 .CUL-header-links a{
 	text-decoration: none;
-	
 }
 
 #header-link-CUL {
@@ -87,6 +85,8 @@ body{
 
 .search-navigation-items {
 	float: right;
+	position:relative;
+	z-index: 5;
 	margin: 15px 25px 0px 0px;
 	font-size: 1.8em;
 	text-align: right;
