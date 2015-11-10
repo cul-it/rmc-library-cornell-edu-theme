@@ -29,13 +29,12 @@ body{
 .RMC-header{
 	height: 125px;
 	padding: 0px;
-	background-color: #450003;
-	background-image: linear-gradient(90deg, #450003, #1f0a0a);
 	color: #fff;
 	font-size: 1.1em;
 	font-family: Montserrat, sans-serif;
-	font-weight: normal;
 	overflow: hidden;
+	background-color: #450003;
+	background-image: linear-gradient(90deg, #450003, #1f0a0a);
 }
 
 .cu-logo-link{
