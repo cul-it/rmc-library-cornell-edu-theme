@@ -78,7 +78,7 @@
 
 	<div class="search-navigation-items"><a href="/search/node"><span class="fa fa-search"></span></a></div>
 	
-	<?php print '<a class = "cu-logo-link" href="http://www.cornell.edu/"><img class="cu-logo-fp" src="'.$base_path.$directory.'/img/CULogo-white.svg"></a>'; ?>
+	<?php print '<a class = "cu-logo-link" href="http://www.cornell.edu/"><img class="cu-logo-fp" src="/sites/all/themes/rmc_library_bootstrap/img/CULogo-white.svg"></a>'; ?>
 	
 	<div class="CUL-header-links">
 	<a id="header-link-CUL" href="https://www.library.cornell.edu/">Cornell University Library</a><br/>
