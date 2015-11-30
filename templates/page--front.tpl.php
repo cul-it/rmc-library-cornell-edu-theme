@@ -76,7 +76,7 @@
 
 <header class = "RMC-fp-header">
 
-	<div class="search-navigation-items"><a href="/search/node"><span class="fa fa-search"></span></a></div>
+	<div class="search-navigation-items"><a href="/about/search"><span class="fa fa-search"></span></a></div>
 	
 	<?php print '<a class = "cu-logo-link" href="http://www.cornell.edu/"><img class="cu-logo-fp" src="/sites/all/themes/rmc_library_bootstrap/img/CULogo-white.svg"></a>'; ?>
 	
