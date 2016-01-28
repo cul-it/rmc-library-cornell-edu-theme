@@ -69,17 +69,15 @@ body{
 #header-link-CUL {
 	color: #eee;
 	font-size: 1.3em;
-	letter-spacing: 1px;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 #header-link-RMC {
 	color: #e8c375;
 	font-size: 1.4em;
-    	letter-spacing: 1px;
-    	line-height: 1.3em;
-    	font-weight: bold;
-    	text-transform: uppercase;
+    line-height: 1.3em;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .search-navigation-items {
