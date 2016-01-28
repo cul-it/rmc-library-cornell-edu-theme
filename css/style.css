@@ -2,12 +2,12 @@
 
 @charset "UTF-8";
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 @font-face {
     font-family: texgyreadventor;
     src: url(../fonts/texgyreadventor-regular.otf);
 }
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body{
 	background-color: #272727;
@@ -18,7 +18,7 @@ body{
 	padding: 0px;
 	color: #fff;
 	font-size: 1.1em;
-	font-family: Montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	overflow: hidden;
 	background-image: url("../img/lance_reunion_header_bg.png"), linear-gradient(90deg, #450003, #1f0a0a);
 	background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body{
 	padding: 0px;
 	color: #fff;
 	font-size: 1.1em;
-	font-family: Montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	overflow: hidden;
 	background-color: #450003;
 	background-image: linear-gradient(90deg, #450003, #1f0a0a);
